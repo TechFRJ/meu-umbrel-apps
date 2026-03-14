@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: fernando-antigravity
+name: Antigravity
+tagline: IDE agentic da Google com Gemini
+icon: https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg
+category: developer
+version: "1.0.0"
+port: 3010
+description: >-
+  Google Antigravity rodando em desktop Linux via noVNC.
+  Acesse pelo browser sem instalar nada.
+developer: Google
+website: https://antigravity.dev
+submitter: Fernando
+repo: https://github.com/SEU_USUARIO/meu-umbrel-apps
+support: https://github.com/SEU_USUARIO/meu-umbrel-apps/issues
+releaseNotes: Primeira versão
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
