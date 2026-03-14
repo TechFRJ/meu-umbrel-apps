@@ -1,5 +1,3 @@
-version: "3.7"
-
 services:
   antigravity:
     image: rawritude/antigravity-remote-docker:latest
@@ -18,20 +16,3 @@ services:
       - ${APP_DATA_DIR}/config:/config
     ports:
       - "3010:3000"
-```
-
-> ⚠️ **Troque `VNC_PASSWORD`** por uma senha sua antes de salvar.
-
----
-
-### PARTE 3 — Adicionar no Umbrel
-
-**1.** No umbrelOS, vá em **App Store**
-
-**2.** Clique nos **três pontinhos** (`⋯`) no canto superior direito
-
-**3.** Clique em **"Community App Stores"**
-
-**4.** Cole a URL do seu repositório GitHub:
-```
-https://github.com/SEU_USUARIO/meu-umbrel-apps
